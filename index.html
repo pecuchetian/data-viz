@@ -1,0 +1,221 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Viz PRA2 - Contractes Públics de Menjadors Escolars</title>
+    <meta name="description" content="Pra 2" />
+    <meta name="keywords" content="Datasci dataviz " />
+    <!-- Google fonts https://www.google.com/fonts
+    ================================================== -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,200,700" rel="stylesheet" type="text/css">
+    <!-- Fount Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- favicon
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+    ============================== -->
+    <meta property="og:title" content="Whoa! Jekyll, Foundation 6, HTML5 boilerplate and github pages!Data Viz PRA2 - Contractes Públics de Menjadors Escolars"/>
+    <meta property="og:site_name" content="PRA 2 Data Viz"/>
+    <meta property="og:url" content="http://pecuchetian.github.io/data-viz"/>
+    <meta property="og:description" content="This is my project. Welcome."/>
+    <meta property="og:image" content=""/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@pecuchetian">
+    <meta name="twitter:title" content="Whoa! Jekyll, Foundation 6, HTML5 boilerplate and github pages!">
+    <meta name="twitter:description" content="This is my project. Welcome.">
+    <meta name="twitter:image" content="">
+
+  </head>
+  <body>
+
+    <div class="off-canvas position-right" data-off-canvas id="offCanvas">
+      <div class="vertical menu mtl">
+
+<li>
+  <a href="https://github.com/pecuchetian/data-viz">
+    <i class="fab fa-github"></i> Source
+  </a>
+</li>
+<li>
+  <a href="page-html-unit-test.html">
+    <i class="fas fa-book"></i> Jupyter Notebook
+  </a>
+</li>
+<!-- <li>
+  <a href="page-foundation-example.html">
+    <i class="fas fa-magic"></i> Foundation
+  </a>
+</li>
+<li>
+  <a href="page-template-example.html">
+    <i class="fas fa-object-group"></i> Template
+  </a>
+</li> -->
+      </div>
+      <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <i class="fas fa-times fa-xs"></i>
+      </button>
+    </div><!-- end .off-canvas -->
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <div class="title-bar">
+        <div class="title-bar-left">
+          <h4 class="title-bar-title font-heavy mas"><a href="http://pecuchetian.github.io/data-viz/">Marc Deixt</a></h4>
+        </div>
+        <div class="title-bar-right mts">
+          <div class="show-for-medium menu align-right simple quiet">
+            <!-- <li>
+  <a href="http://daigofuji.github.io/jekyll-foundation-6-starter/">
+    <i class="fas fa-home"></i> Home
+  </a>
+</li> -->
+<li>
+  <a href="https://github.com/daigofuji/jekyll-foundation-6-starter">
+    <i class="fab fa-github"></i> Source
+  </a>
+</li>
+<li>
+  <a href="page-html-unit-test.html">
+    <i class="fas fa-book"></i> Jupyter
+  </a>
+</li>
+<!-- <li>
+  <a href="page-foundation-example.html">
+    <i class="fas fa-magic"></i> Foundation
+  </a>
+</li>
+<li>
+  <a href="page-template-example.html">
+    <i class="fas fa-object-group"></i> Template
+  </a>
+</li> -->
+          </div>
+          <ul class="hide-for-medium menu align-right simple">
+            <li><button class="secondary button" data-toggle="offCanvas" type="button"><i aria-hidden="true" class="fas fa-bars"></i> MENU</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid-container">
+
+        <section role="main" class="grid-x">
+  <div class="small-12 cell">
+    <h1 class="mvl text-center">PRA 2 Data Viz - Contractes Menjadors Consells Comarcals</h1>
+
+    <div class="grid-x">
+      <h3>
+
+      El pes dels menjadors escolars en els contractes dels Consells Comarcals
+      </h3>
+      <div class="medium-5 large-5  cell">
+
+      <p>
+        Els Consells Comarcals de Catalunya tenen transferida la gestió dels menjadors escolars per la Generalitat. Els imports dels contractes que surten a concurs són molt elevats, però quin pes tenen sobre el total de contractes que treuen a concurs els Consells Comarcals?
+        Cal tenir em compte que aquestes licitacions no obliguen els consells comarcals a pagar l'import de l'adjudicació, sinó que suposen un estimat del volum de negoci que faran les empreses licitadores en el periode de contractació amb els menús de les escoles.
+    </p>
+      <p>
+
+      Aquestes licitacions, per tant, es fan a la  baixa, i guanya el concurs normalment l'oferta més econòmica. Això va normalment en detriment de la qualitat del servei i de les condicions laborals dels treballadors de les empreses licitadores.
+      </p>
+      </div>
+      <div class="medium-6 large-6 medium-offset-1 cell">
+        <div class="flourish-embed flourish-map" data-src="visualisation/10255223"><script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+    </div>
+    <div class="grid-x">
+      <h3>
+        Interdependència de Consells Comarcals i grans licitadors
+      </h3>
+      <div class="medium-5 large-5  cell">
+
+      <p> Els Consells Comarcals agrupen les licitacions en lots o grups d'escoles. També deleguen molta feina de gestió dels menjadors en les empreses licitadores, i això fa que s'estableixi una relació d'interdependència entre Consell Comarcal i empresa licitadora, on el Consell Comarcal depèn de l'empresa per a la gestió i l'empresa depèn del Consell Comarcal per assegurar bona part del seu volum de negoci.
+      </p>
+    </div>
+      <div class="medium-5 large-5 medium-offset-2 cell">
+      <p>
+        En algunes comarques, com a l'Alt Empordà, una sola empresa s'emporta gairebé la gestió completa dels menjadors. En aquests casos es percep com és de difícil per a empresa i Consell Comarcal deixar l'hàbit que tant els convenia.
+      </p>
+      </div>
+
+    </div>
+    <!-- <div class="medium-6 large-6  cell">
+        <div class="flourish-embed flourish-map" data-src="visualisation/10280576"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div> -->
+
+
+
+
+      <div class="medium-10 large-10 medium-offset-1 large-offset-1 cell">
+
+      <div class="flourish-embed flourish-sankey" data-src="visualisation/10144306"><script src="https://public.flourish.studio/resources/embed.js"></script>
+      </div>
+    </div>
+</div>
+    <div class="grid-x">
+      <h3>
+        Com depenen els grans licitadors dels Consells Comarcals
+      </h3>
+      <div class="medium-5 large-5  cell">
+      <p> Els grans licitadors acaparen gran part del volum de contractes ofertats pels Consells Comarcals. Aquí veiem com estan distribuits els contractes de les 15 empreses amb major volum de contractes amb els Consells Comarcals, ja siguin de menjador o no.
+      </p>
+    </div>
+      <div class="medium-5 large-5 medium-offset-2 cell">
+      <p>
+        Cal tenir en compte que només es tenen en compte contractes signats amb Consells Comarcals i cal suposar que algunes d'aquestes empreses signen contractes públics amb altres administracions.
+      </p>
+      </div>
+
+      <div class="medium-10 large-8 medium-offset-1 large-offset-2 cell">
+        <div class="flourish-embed flourish-hierarchy" data-src="visualisation/10284365"><script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
+
+
+        <footer class="site-footer grid-x grid-padding-x mtl" role="contentinfo">
+          <div class="large-12 cell">
+            <hr>
+            <ul class="menu quiet copyright align-right">
+              <li>
+                <a href="https://twitter.com/pecuchetian"><i class="fab fa-twitter"></i> @pecuchetian</a>
+              </li>
+              <li>
+                <a href="https://github.com/pecuchetian/"><i class="fab fa-github"></i> @pecuchetian</a>
+              </li>
+            </ul>
+
+          </div>
+        </footer>
+
+      </div><!-- end .grid-container -->
+
+    </div><!-- end .off-canvas-content -->
+
+    <!-- Loading JavaScripts
+    ================================================== -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
+    <script src="bower_components/what-input/dist/what-input.min.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+
+  </body>
+</html>
